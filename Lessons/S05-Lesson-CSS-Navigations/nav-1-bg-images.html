@@ -4,6 +4,47 @@
         <title>Background Images :: CSS Navigations</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<style type="text/css">
+					/*-------------------------------------
+					| style cut and copied to, moved to CSS
+					-------------------------------------*/
+					body {
+						background-image:  url(./img/1-separate/1-link.png);
+
+						background-repeat: repeat-x;
+						background-repeat: repeat-y;
+						background-repeat: no-repeat;
+
+						background-position: left top;
+						background-position: right top;
+						background-position: bottom;
+					}
+
+					nav.bg-images a {
+						background-image: url(./img/1-separate/1-link.png);
+						display: block;
+						width: 275px;
+						height: 50px;
+
+						margin-bottom: 30px;
+
+						color: white;
+						text-align: right;
+						line-height: 50px;
+
+						padding-right: 25px;
+						/*-------------------------------------
+						| reduced padding from width of image file
+						in this case, img file is 300x50px
+						-------------------------------------*/
+						outline: solid 3px red;
+
+						text-decoration: none;
+					}
+
+					nav.bg-images a 									{background-image: url(./img/1-separate/1-link.png); }
+					nav.bg-images a.theChosenOne 			{background-image: url(./img/1-separate/4-chosen.png); }
+					nav.bg-images a:hover 						{background-image: url(./img/1-separate/2-hover.png); }
+					nav.bg-images a:active 						{background-image: url(./img/1-separate/3-active.png); }
 
 		</style>
     </head>
