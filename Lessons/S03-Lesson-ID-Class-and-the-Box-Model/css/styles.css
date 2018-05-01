@@ -1,0 +1,85 @@
+/*-------------------------------------
+| Body and Container Div
+-------------------------------------*/
+body { background-color: tomato; }
+
+div.wrapper {
+    width: 800px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    comments
+    multiline comments
+    more than one
+    cmd + / for comments
+    c2 + tab (shortcut for labels)
+    copy lines down = cmd + shift + D
+*/
+
+/*-------------------------------------
+| Root Branches
+-------------------------------------*/
+header {padding: 20px; background-color: teal;}
+nav {padding: 20px; background-color: goldenrod;}
+main {padding: 20px; background-color: oldlace;}
+footer {padding: 20px; background-color: teal;}
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+nav { text-align: center; }
+
+a.menulink {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a.menulink:hover {
+    background-color: tomato;
+}
+/*-------------------------------------
+| Main
+-------------------------------------*/
+main {
+    display: flex;
+}
+article { padding: 20px; background-color: pink; width: 65% }
+aside { padding: 20px; background-color: yellow; width: 35% }
+
+p {
+    background-color: orange;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+p.alt1 {
+    background-color: purple;
+}
+
+p.ginormous {
+    font-size: 50px;
+    background-color: teal;
+    line-height: 40px;
+}
+
+p.multicol {
+    column-count: 2;
+}
+
+h1 {
+    background-color: orange;
+    border: dotted 10px red;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1#myID {
+    background-color: black;
+    color: white;
+}

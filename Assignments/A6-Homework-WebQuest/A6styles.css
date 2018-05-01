@@ -1,0 +1,111 @@
+/*-------------------------------------
+| Body and Container Div
+-------------------------------------*/
+body {
+    background-color: oldlace;
+    background-image: url(paper_texture_06.png);
+
+}
+
+div.wrapper {
+    width: 1280px;
+    background-color: oldlace;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 10px gray;
+    font-family: futura;
+}
+
+header#maintitle {
+    font-size: 50px;
+    color: #2C2A29;
+    font-family: 'Crete Round', serif;
+    font-kerning: auto;
+}
+/*
+    comments
+    multiline comments
+    more than one
+    cmd + / for comments
+    c2 + tab (shortcut for labels)
+    copy lines down = cmd + shift + D
+*/
+
+/*-------------------------------------
+| Root Branches
+-------------------------------------*/
+header {padding: 20px; background-color: darkgoldenrod;}
+nav {padding: 20px; background-color: goldenrod;}
+main {padding: 20px; background-color: oldlace;}
+footer {padding: 20px; background-color: darkgoldenrod;}
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+nav { text-align: center; }
+
+a.menulink {
+    background-color: #2C2A29;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px darkgoldenrod;
+}
+a.menulink:hover {
+    background-color: darkgoldenrod;
+}
+/*-------------------------------------
+| Main
+-------------------------------------*/
+main {
+    display: flex;
+}
+article {
+    padding: 20px;
+    background-color: oldlace;
+    width: 75%
+}
+aside {
+    padding: 20px;
+    background-color: papayawhip;
+    width: 25%;
+    color: #2C2A29;
+}
+
+p {
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+p.multicol {
+    column-count: 3;
+    background-color: orange;
+}
+
+.moodboard {
+    margin-top: 50px;
+}
+
+h1 {
+    background-color: orange;
+    border: solid 10px darkgoldenrod;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1#myID {
+    background-color: #2C2A29;
+    color: white;
+    box-shadow: 3px 3px 8px darkgoldenrod;
+}
+
+aside {
+    background-color: papayawhip;
+    color: #2C2A29;
+    box-shadow: 3px 3px 8px #2C2A29;
+    border-color: #2C2A29;
+    border-width: 20px;
+    padding: 20px;
+}
